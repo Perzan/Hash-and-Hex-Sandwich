@@ -68,12 +68,12 @@ public class HashHexSandwich {
 	    return hex(hash(o));
 	}
 	
-	public static int hashsandwich(int hash, String prefix, String suffix) {
+	public static int hashexandwich(int hash, String prefix, String suffix) {
 		return hash(String.join("", prefix, hex(hash), suffix));
 	}
 
 	public static boolean test(int hash, String prefix, String suffix) {
-		return hash == hashsandwich(hash, prefix, suffix);
+		return hash == hashexandwich(hash, prefix, suffix);
 	}
 	
 }
