@@ -2,7 +2,7 @@ package me.perzan.hhsw;
 
 import java.util.Objects;
 
-public class HashSandwich {
+public class HashHexSandwich {
 	
 	private static final int 
 		THREAD_COUNT = Integer.parseInt(System.getenv("NUMBER_OF_PROCESSORS")),
